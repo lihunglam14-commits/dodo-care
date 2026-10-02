@@ -1,0 +1,53 @@
+{
+  "index.html": {
+    "file": "assets/index-R71FlOdm.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "assets/index-CuhlOvfS.css"
+    ],
+    "assets": [
+      "assets/dodo-logo-DON0URkt.png",
+      "assets/penguin-ya2zThc6.webp",
+      "assets/sloth-Bq01iTkA.webp",
+      "assets/panda-C0Vbe45r.webp",
+      "assets/dodo-round-tc-Ci7TqLk5.woff2",
+      "assets/dodo-num-700-CcjNNlc-.woff2",
+      "assets/dodo-num-800-C7-5J09J.woff2",
+      "assets/grain-C3nM8G1g.png"
+    ]
+  },
+  "src/assets/brand/dodo-logo.png": {
+    "file": "assets/dodo-logo-DON0URkt.png",
+    "src": "src/assets/brand/dodo-logo.png"
+  },
+  "src/assets/fonts/dodo-num-700.woff2": {
+    "file": "assets/dodo-num-700-CcjNNlc-.woff2",
+    "src": "src/assets/fonts/dodo-num-700.woff2"
+  },
+  "src/assets/fonts/dodo-num-800.woff2": {
+    "file": "assets/dodo-num-800-C7-5J09J.woff2",
+    "src": "src/assets/fonts/dodo-num-800.woff2"
+  },
+  "src/assets/fonts/dodo-round-tc.woff2": {
+    "file": "assets/dodo-round-tc-Ci7TqLk5.woff2",
+    "src": "src/assets/fonts/dodo-round-tc.woff2"
+  },
+  "src/assets/grain.png": {
+    "file": "assets/grain-C3nM8G1g.png",
+    "src": "src/assets/grain.png"
+  },
+  "src/assets/pets/panda.webp": {
+    "file": "assets/panda-C0Vbe45r.webp",
+    "src": "src/assets/pets/panda.webp"
+  },
+  "src/assets/pets/penguin.webp": {
+    "file": "assets/penguin-ya2zThc6.webp",
+    "src": "src/assets/pets/penguin.webp"
+  },
+  "src/assets/pets/sloth.webp": {
+    "file": "assets/sloth-Bq01iTkA.webp",
+    "src": "src/assets/pets/sloth.webp"
+  }
+}
