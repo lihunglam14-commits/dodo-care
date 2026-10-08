@@ -5,7 +5,7 @@
  * 緊急停用：把整個檔案換成 scripts/sw-kill.js 的內容再發布。
  */
 // 發布時由 scripts/stamp_sw.mjs 換成這次版本的編號，令瀏覽器安裝新版並清除舊檔案
-const CACHE = 'dodo-db8814fef3';
+const CACHE = 'dodo-f15e30ebfb';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
