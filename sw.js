@@ -5,7 +5,7 @@
  * 緊急停用：把整個檔案換成 scripts/sw-kill.js 的內容再發布。
  */
 // 發布時由 scripts/stamp_sw.mjs 換成這次版本的編號，令瀏覽器安裝新版並清除舊檔案
-const CACHE = 'dodo-efb25ab1eb';
+const CACHE = 'dodo-34ef5302d1';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -43,6 +43,8 @@ self.addEventListener('fetch', (event) => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
+  // API 及管理頁必須直接向伺服器查詢，不可在離線時顯示舊首頁。
+  if (url.pathname.startsWith('/api/') || url.pathname.startsWith('/admin/')) return;
 
   if (req.mode === 'navigate') {
     event.respondWith(
