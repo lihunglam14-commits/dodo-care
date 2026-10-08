@@ -6,4 +6,4 @@
 
 試用統計採自願參與：訪客先選擇同意，網站才送出固定分類及服務／活動編號；不傳送搜尋原句、問卷答案或身份資料。正式 Sites 服務有雲端匯總資料庫；網站沒有管理員登入或公開報表。第 6 版亦移除了公開頁面的本機次數及下載功能。這個 GitHub 分支只備份公開靜態畫面，單獨開啟此分支檔案不會有資料庫功能。
 
-舊 GitHub Pages 網址 `https://lihunglam14-commits.github.io/dodo-care/` 仍從 `main` 發布 2026-10-02 的舊版，可能在共用裝置顯示舊本機統計功能，請勿再派發或使用該網址。現時不能推送 `main` 更新該網址，因為這會啟動 GitHub Pages hosted runner；請使用上面的正式網站網址。
+舊 GitHub Pages 網址 `https://lihunglam14-commits.github.io/dodo-care/` 已於 2026-10-08 停用，以免共用裝置載入仍有本機統計功能的舊版。請使用上面的正式網站網址。公開儲存庫保留最新版靜態檔案作備份；未經 owner 授權及費用上限，不重新啟用 GitHub Pages hosted runner。
