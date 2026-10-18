@@ -1,20 +1,20 @@
 {
   "index.html": {
-    "file": "assets/index-BlaKPd17.js",
+    "file": "assets/index-DLIt1983.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/index-B_TodG1q.css"
+      "assets/index-CMToMly4.css"
     ],
     "assets": [
       "assets/dodo-logo-DON0URkt.png",
       "assets/penguin-2d-CJlYVr6y.png",
       "assets/sloth-2d-fPWGYavQ.png",
       "assets/panda-2d-CWgjL5fe.png",
-      "assets/dodo-round-tc-BJiT4pep.woff2",
-      "assets/dodo-num-700-B8dA0gL7.woff2",
-      "assets/dodo-num-800-C3_G-Dx9.woff2",
+      "assets/dodo-round-tc-DQH9Sg55.woff2",
+      "assets/dodo-num-700-tSbqMPoO.woff2",
+      "assets/dodo-num-800-DRpAvg0r.woff2",
       "assets/grain-C3nM8G1g.png"
     ]
   },
@@ -23,15 +23,15 @@
     "src": "src/assets/brand/dodo-logo.png"
   },
   "src/assets/fonts/dodo-num-700.woff2": {
-    "file": "assets/dodo-num-700-B8dA0gL7.woff2",
+    "file": "assets/dodo-num-700-tSbqMPoO.woff2",
     "src": "src/assets/fonts/dodo-num-700.woff2"
   },
   "src/assets/fonts/dodo-num-800.woff2": {
-    "file": "assets/dodo-num-800-C3_G-Dx9.woff2",
+    "file": "assets/dodo-num-800-DRpAvg0r.woff2",
     "src": "src/assets/fonts/dodo-num-800.woff2"
   },
   "src/assets/fonts/dodo-round-tc.woff2": {
-    "file": "assets/dodo-round-tc-BJiT4pep.woff2",
+    "file": "assets/dodo-round-tc-DQH9Sg55.woff2",
     "src": "src/assets/fonts/dodo-round-tc.woff2"
   },
   "src/assets/grain.png": {
