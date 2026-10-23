@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "file": "assets/index-LHtYS2L2.js",
+    "file": "assets/index-BbHzLhxv.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -8,6 +8,8 @@
       "assets/index-CQm9scNJ.css"
     ],
     "assets": [
+      "assets/home-start-BIFRqCWK.mp3",
+      "assets/preview-CAUQoLmQ.mp3",
       "assets/dodo-logo-DON0URkt.png",
       "assets/penguin-2d-CJlYVr6y.png",
       "assets/sloth-2d-fPWGYavQ.png",
@@ -37,6 +39,14 @@
   "src/assets/grain.png": {
     "file": "assets/grain-C3nM8G1g.png",
     "src": "src/assets/grain.png"
+  },
+  "src/assets/guidance-serena/home-start.mp3": {
+    "file": "assets/home-start-BIFRqCWK.mp3",
+    "src": "src/assets/guidance-serena/home-start.mp3"
+  },
+  "src/assets/guidance-serena/preview.mp3": {
+    "file": "assets/preview-CAUQoLmQ.mp3",
+    "src": "src/assets/guidance-serena/preview.mp3"
   },
   "src/assets/pets/panda-2d.png": {
     "file": "assets/panda-2d-CWgjL5fe.png",
