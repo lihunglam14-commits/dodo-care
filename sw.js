@@ -5,12 +5,16 @@
  * 緊急停用：把整個檔案換成 scripts/sw-kill.js 的內容再發布。
  */
 // 發布時由 scripts/stamp_sw.mjs 換成這次版本的編號，令瀏覽器安裝新版並清除舊檔案
-const CACHE = 'dodo-f2083697d8';
+const CACHE = 'dodo-fd49b53901';
+// CacheStorage is shared by every app on this origin (including other Pages repos).
+// Keep legacy unscoped caches: their ownership cannot be established safely.
+const CACHE_PREFIX = `dodo:${self.registration.scope}:`;
+const CACHE_NAME = CACHE_PREFIX + CACHE;
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
     (async () => {
-      const cache = await caches.open(CACHE);
+      const cache = await caches.open(CACHE_NAME);
       const files = new Set(['./', './manifest.webmanifest', './icons/icon-192.png', './icons/apple-touch-icon.png', './icons/favicon-64.png']);
       try {
         const res = await fetch('./asset-manifest.json', { cache: 'no-store' });
@@ -32,7 +36,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
-      for (const key of await caches.keys()) if (key !== CACHE) await caches.delete(key);
+      for (const key of await caches.keys()) if (key.startsWith(CACHE_PREFIX) && key !== CACHE_NAME) await caches.delete(key);
       await self.clients.claim();
     })(),
   );
@@ -49,7 +53,7 @@ self.addEventListener('fetch', (event) => {
   if (req.mode === 'navigate') {
     event.respondWith(
       (async () => {
-        const cache = await caches.open(CACHE);
+        const cache = await caches.open(CACHE_NAME);
         try {
           const res = await Promise.race([
             fetch(req, { cache: 'no-cache' }),
@@ -70,12 +74,13 @@ self.addEventListener('fetch', (event) => {
   if (url.pathname.includes('/assets/') || url.pathname.includes('/icons/') || url.pathname.endsWith('manifest.webmanifest')) {
     event.respondWith(
       (async () => {
-        const hit = await caches.match(req);
+        const cache = await caches.open(CACHE_NAME);
+        const hit = await cache.match(req);
         if (hit) return hit;
         const res = await fetch(req);
         if (res.ok) {
           const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(req, copy));
+          event.waitUntil(cache.put(req, copy));
         }
         return res;
       })(),
