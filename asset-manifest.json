@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "file": "assets/index-CxwMOSjU.js",
+    "file": "assets/index-D5O5L5My.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -14,10 +14,10 @@
       "assets/penguin-2d-CJlYVr6y.png",
       "assets/sloth-2d-fPWGYavQ.png",
       "assets/panda-2d-CWgjL5fe.png",
-      "assets/jockey-club-smart-teens-pYBNeg9q.png",
+      "assets/jockey-club-smart-teens-DUL6lxZn.svg",
       "assets/lumos-BZgGEPGk.png",
-      "assets/jockey-club-charities-trust-snOcFlM8.png",
-      "assets/yan-oi-tong-youth-space-BzgygLzS.png",
+      "assets/jockey-club-charities-trust-CeZcf82E.svg",
+      "assets/yan-oi-tong-youth-space-CDDla--p.svg",
       "assets/dodo-round-tc-WYXY4Jyc.woff2",
       "assets/dodo-num-700-CfaJaO0S.woff2",
       "assets/dodo-num-800-BWwSG3Sy.woff2",
@@ -52,21 +52,21 @@
     "file": "assets/preview-CAUQoLmQ.mp3",
     "src": "src/assets/guidance-serena/preview.mp3"
   },
-  "src/assets/partners/jockey-club-charities-trust.png": {
-    "file": "assets/jockey-club-charities-trust-snOcFlM8.png",
-    "src": "src/assets/partners/jockey-club-charities-trust.png"
+  "src/assets/partners/jockey-club-charities-trust.svg": {
+    "file": "assets/jockey-club-charities-trust-CeZcf82E.svg",
+    "src": "src/assets/partners/jockey-club-charities-trust.svg"
   },
-  "src/assets/partners/jockey-club-smart-teens.png": {
-    "file": "assets/jockey-club-smart-teens-pYBNeg9q.png",
-    "src": "src/assets/partners/jockey-club-smart-teens.png"
+  "src/assets/partners/jockey-club-smart-teens.svg": {
+    "file": "assets/jockey-club-smart-teens-DUL6lxZn.svg",
+    "src": "src/assets/partners/jockey-club-smart-teens.svg"
   },
   "src/assets/partners/lumos.png": {
     "file": "assets/lumos-BZgGEPGk.png",
     "src": "src/assets/partners/lumos.png"
   },
-  "src/assets/partners/yan-oi-tong-youth-space.png": {
-    "file": "assets/yan-oi-tong-youth-space-BzgygLzS.png",
-    "src": "src/assets/partners/yan-oi-tong-youth-space.png"
+  "src/assets/partners/yan-oi-tong-youth-space.svg": {
+    "file": "assets/yan-oi-tong-youth-space-CDDla--p.svg",
+    "src": "src/assets/partners/yan-oi-tong-youth-space.svg"
   },
   "src/assets/pets/panda-2d.png": {
     "file": "assets/panda-2d-CWgjL5fe.png",
