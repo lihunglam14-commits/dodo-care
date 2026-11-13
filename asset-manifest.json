@@ -1,11 +1,11 @@
 {
   "index.html": {
-    "file": "assets/index-DChONs37.js",
+    "file": "assets/index-Cginfr2c.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/index-CLRPapXf.css"
+      "assets/index-CYpZp7-f.css"
     ],
     "assets": [
       "assets/home-start-BIFRqCWK.mp3",
@@ -14,6 +14,10 @@
       "assets/penguin-2d-CJlYVr6y.png",
       "assets/sloth-2d-fPWGYavQ.png",
       "assets/panda-2d-CWgjL5fe.png",
+      "assets/jockey-club-smart-teens-pYBNeg9q.png",
+      "assets/lumos-BZgGEPGk.png",
+      "assets/jockey-club-charities-trust-snOcFlM8.png",
+      "assets/yan-oi-tong-youth-space-BzgygLzS.png",
       "assets/dodo-round-tc-WYXY4Jyc.woff2",
       "assets/dodo-num-700-CfaJaO0S.woff2",
       "assets/dodo-num-800-BWwSG3Sy.woff2",
@@ -47,6 +51,22 @@
   "src/assets/guidance-serena/preview.mp3": {
     "file": "assets/preview-CAUQoLmQ.mp3",
     "src": "src/assets/guidance-serena/preview.mp3"
+  },
+  "src/assets/partners/jockey-club-charities-trust.png": {
+    "file": "assets/jockey-club-charities-trust-snOcFlM8.png",
+    "src": "src/assets/partners/jockey-club-charities-trust.png"
+  },
+  "src/assets/partners/jockey-club-smart-teens.png": {
+    "file": "assets/jockey-club-smart-teens-pYBNeg9q.png",
+    "src": "src/assets/partners/jockey-club-smart-teens.png"
+  },
+  "src/assets/partners/lumos.png": {
+    "file": "assets/lumos-BZgGEPGk.png",
+    "src": "src/assets/partners/lumos.png"
+  },
+  "src/assets/partners/yan-oi-tong-youth-space.png": {
+    "file": "assets/yan-oi-tong-youth-space-BzgygLzS.png",
+    "src": "src/assets/partners/yan-oi-tong-youth-space.png"
   },
   "src/assets/pets/panda-2d.png": {
     "file": "assets/panda-2d-CWgjL5fe.png",
