@@ -1,11 +1,11 @@
 {
   "index.html": {
-    "file": "assets/index-BnaB-Z7K.js",
+    "file": "assets/index-DPPmubAA.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "css": [
-      "assets/index-CRl3Ju1t.css"
+      "assets/index-lH5OmMUW.css"
     ],
     "assets": [
       "assets/home-start-BIFRqCWK.mp3",
@@ -18,7 +18,7 @@
       "assets/lumos-BZgGEPGk.png",
       "assets/jockey-club-charities-trust-CeZcf82E.svg",
       "assets/yan-oi-tong-youth-space-CDDla--p.svg",
-      "assets/dodo-round-tc-MBTHpte9.woff2",
+      "assets/dodo-round-tc-CnsbV27y.woff2",
       "assets/dodo-num-700-C0f2E6qT.woff2",
       "assets/dodo-num-800-CxmodYHM.woff2",
       "assets/grain-C3nM8G1g.png"
@@ -37,7 +37,7 @@
     "src": "src/assets/fonts/dodo-num-800.woff2"
   },
   "src/assets/fonts/dodo-round-tc.woff2": {
-    "file": "assets/dodo-round-tc-MBTHpte9.woff2",
+    "file": "assets/dodo-round-tc-CnsbV27y.woff2",
     "src": "src/assets/fonts/dodo-round-tc.woff2"
   },
   "src/assets/grain.png": {
