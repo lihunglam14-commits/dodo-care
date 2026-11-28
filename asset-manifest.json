@@ -1,9 +1,12 @@
 {
   "index.html": {
-    "file": "assets/index-F6dd09Hm.js",
+    "file": "assets/index-CEdqGCxj.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
+    "dynamicImports": [
+      "src/analytics/weeklyBrowser.ts"
+    ],
     "css": [
       "assets/index-D3RVZLVI.css"
     ],
@@ -22,6 +25,15 @@
       "assets/dodo-num-700-C0f2E6qT.woff2",
       "assets/dodo-num-800-CxmodYHM.woff2",
       "assets/grain-C3nM8G1g.png"
+    ]
+  },
+  "src/analytics/weeklyBrowser.ts": {
+    "file": "assets/weeklyBrowser-BH4dUpuc.js",
+    "name": "weeklyBrowser",
+    "src": "src/analytics/weeklyBrowser.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
     ]
   },
   "src/assets/brand/dodo-logo.png": {
